@@ -1,0 +1,58 @@
+/* .navbar1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: bisque;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+} */
+/* NavBar.css */
+
+.navbar1 {
+    width: 100%;
+    height: 40%;
+    background-color:antiquewhite; /* Change to your desired background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #ffffff; /* Change to your desired font color */
+  }
+  
+  .navbar1 h1 {
+    font-size: 2.5em; /* Change to your desired font size */
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 0 10px;
+    font-size: 2em; /* Change to your desired font size */
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffff; /* Change to your desired font color */
+  }
+  
+  /* Change color on hover for li elements */
+  ul li:hover {
+    color: #00ff00; /* Change to your desired hover color */
+    transition: color 0.5s ease; /* Smooth transition effect */
+  }
+  
